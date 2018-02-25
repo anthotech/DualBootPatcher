@@ -61,7 +61,7 @@
     brightness_path: /sys/devices/14800000.dsim/backlight/panel/brightness
     max_brightness: 255
     default_brightness: 162
-    pixel_format: RGBX_8888
+    pixel_format: BGRA_8888
     theme: portrait_hdpi
 
 - name: Samsung Galaxy Tab A6 10.1 LTE
