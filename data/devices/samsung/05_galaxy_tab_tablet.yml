@@ -8,35 +8,48 @@
 
   block_devs:
     base_dirs:
+      - /dev/block/bootdevice/by-name
       - /dev/block/platform/13540000.dwmmc0/by-name
     system:
+      - /dev/block/bootdevice/by-name/SYSTEM
       - /dev/block/platform/13540000.dwmmc0/by-name/SYSTEM
       - /dev/block/mmcblk0p19
     cache:
+      - /dev/block/bootdevice/by-name/CACHE
       - /dev/block/platform/13540000.dwmmc0/by-name/CACHE
       - /dev/block/mmcblk0p20
     data:
+      - /dev/block/bootdevice/by-name/USERDATA
       - /dev/block/platform/13540000.dwmmc0/by-name/USERDATA
       - /dev/block/mmcblk0p22
     boot:
+      - /dev/block/bootdevice/by-name/BOOT
       - /dev/block/platform/13540000.dwmmc0/by-name/BOOT
       - /dev/block/mmcblk0p9
     recovery:
+      - /dev/block/bootdevice/by-name/RECOVERY
       - /dev/block/platform/13540000.dwmmc0/by-name/RECOVERY
       - /dev/block/mmcblk0p10
     extra:
+      - /dev/block/bootdevice/by-name/RADIO
       - /dev/block/platform/13540000.dwmmc0/by-name/RADIO
       - /dev/block/mmcblk0p13
+      - /dev/block/bootdevice/by-name/CDMA-RADIO
       - /dev/block/platform/13540000.dwmmc0/by-name/CDMA-RADIO
       - /dev/block/mmcblk0p12
+      - /dev/block/bootdevice/by-name/EFS
       - /dev/block/platform/13540000.dwmmc0/by-name/EFS
       - /dev/block/mmcblk0p3
+      - /dev/block/bootdevice/by-name/CPEFS
       - /dev/block/platform/13540000.dwmmc0/by-name/CPEFS
       - /dev/block/mmcblk0p4
+      - /dev/block/bootdevice/by-name/m9kefs1
       - /dev/block/platform/13540000.dwmmc0/by-name/m9kefs1
       - /dev/block/mmcblk0p5
+      - /dev/block/bootdevice/by-name/m9kefs2
       - /dev/block/platform/13540000.dwmmc0/by-name/m9kefs2
       - /dev/block/mmcblk0p6
+      - /dev/block/bootdevice/by-name/m9kefs3
       - /dev/block/platform/13540000.dwmmc0/by-name/m9kefs3
       - /dev/block/mmcblk0p7
   boot_ui:
